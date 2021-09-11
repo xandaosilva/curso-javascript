@@ -15,10 +15,10 @@ function testarFizzBuzz(){
     }
 }
 
-/*console.log(retornarMaiorNumero(1,2));
+console.log(retornarMaiorNumero(1,2));
 console.log(retornarMaiorNumero(3,3));
 console.log(retornarMaiorNumero(12,7));
 console.log(ehPaisagem(1920,1080));
 console.log(ehPaisagem(1080,1920));
-console.log(ehPaisagem(1920,1920));*/
+console.log(ehPaisagem(1920,1920));
 testarFizzBuzz();
