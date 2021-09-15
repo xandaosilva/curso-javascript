@@ -20,7 +20,7 @@ class Calculadora {
             try {
                 let conta = eval(this.display.value);
 
-                if (!conta) {
+                if (Number.isNaN(conta) || typeof conta !== "number") {
                     alert("Operação inválida !");
                     return;
                 }

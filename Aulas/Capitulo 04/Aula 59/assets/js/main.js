@@ -25,7 +25,7 @@ function criarCalculadora(){
             try {
                 conta = eval(conta);
 
-                if(!conta) {
+                if(Number.isNaN(conta) || typeof conta !== "number") {
                     alert("Operação inválida !");
                     return;
                 }
