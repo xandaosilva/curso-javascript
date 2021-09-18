@@ -1,0 +1,20 @@
+/**
+ * CPFS gerados na internet e utilizados como exemplo durante o curso
+ * 705.484.450-52 
+ * 070.987.720-03
+ * 
+ * 7X 0X 5X 4X 8X 4X 4X 5X 0X
+ * 10  9  8  7  6  5  4  3  2
+ * 70  0 40 28 48 20 16 15  0 = total = 237
+ * 
+ * fórmula primeiro dígito -> 11 - (total % 11) -> se for maior do que 9, o primeiro dígito será considerado 0
+ * 11 - (237 % 11) = 5;
+ * 
+ * 7X 0X 5X 4X 8X 4X 4X 5X 0X 5X
+ * 11 10  9  8  7  6  5  4  3  2
+ * 77  0 45 32 56 24 20 20  0 10 = total = 284
+ * 
+ * 11 - (284 % 11) = 2;
+ * 
+ * se cpfGerado for igual ao cpfOriginal então o cpf é válido
+ */
