@@ -1,0 +1,1 @@
+{"version":3,"file":"bundle.js","mappings":"AAAAA,MAAM","sources":["webpack://modelowebpack/./src/index.js"],"sourcesContent":["alert(\"Teste\");"],"names":["alert"],"sourceRoot":""}
