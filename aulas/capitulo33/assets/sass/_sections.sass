@@ -1,0 +1,23 @@
+@use 'variables'
+
+.intro
+
+    &-content
+        position: relative
+        top: -8rem
+        display: grid
+        grid-template-columns: 1fr 1.5fr
+        gap: variables.$gap
+        height: 100vh
+
+    &-text-content, &-img
+        display: flex
+        flex-flow: column wrap
+        justify-content: center
+
+    &-img
+        img
+            max-width: 100%
+            height: auto
+
+
